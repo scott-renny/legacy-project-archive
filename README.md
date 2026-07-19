@@ -12,6 +12,10 @@ Rather than deleting or rewriting these projects, I have chosen to preserve them
 
 These projects may not represent my current engineering standards or active development practices, but they remain valuable records of practical learning, problem-solving, implementation challenges, and continuous improvement.
 
+> **Looking for my current engineering work?**
+>
+> My active cybersecurity and infrastructure projects are maintained in separate repositories and reflect my current engineering standards. This repository exists to preserve the earlier stages of my learning and technical growth.
+
 ---
 
 ## Why Preserve Legacy Projects?
@@ -21,7 +25,7 @@ Many technical portfolios showcase only polished or recently completed work. I b
 These repositories demonstrate:
 
 - Progressive improvement in engineering practices
-- Practical problem-solving in a working homelab
+- Practical problem-solving in a production-like homelab
 - Increasing architectural and operational complexity
 - Hands-on experimentation with security and infrastructure tools
 - Continuous learning through implementation and troubleshooting
@@ -33,11 +37,11 @@ These repositories demonstrate:
 
 For the strongest overview of my earlier work, I recommend exploring these repositories in the following order:
 
-1. **HomeSOC** — security monitoring, SIEM, and detection-focused work
-2. **Home Lab Network Security** — layered network security architecture
-3. **NET-WATCH** — custom monitoring and access-control platform
-4. **Pi-hole DNS Infrastructure** — DNS filtering and network services
-5. **Backup Infrastructure Lab** — backup validation and recovery fundamentals
+1. HomeSOC
+2. Home Lab Network Security
+3. NET-WATCH
+4. Pi-hole DNS Infrastructure
+5. Backup Infrastructure Lab
 
 Each project remains in its original repository with its own documentation, configuration files, implementation notes, and supporting material.
 
@@ -47,11 +51,11 @@ Each project remains in its original repository with its own documentation, conf
 
 | Project | Primary Focus | Repository |
 |---|---|---|
-| 🏠 **HomeSOC** | SOC homelab, SIEM deployment, log collection, detection engineering, dashboards, and security monitoring | [View HomeSOC](https://github.com/scott-renny/HomeSOC) |
-| 🌐 **Home Lab Network Security** | Ubuntu-based network security architecture using Suricata, WireGuard, Wazuh, hardening, and monitoring | [View Home Lab Network Security](https://github.com/scott-renny/home-lab-network-security) |
-| 📡 **NET-WATCH** | Custom network visibility and access-control platform using Flask, Nmap, vnStat, Pi-hole, Wazuh, Nginx, and systemd | [View NET-WATCH](https://github.com/scott-renny/netwatch) |
-| 🛡️ **Pi-hole DNS Infrastructure** | DNS filtering, network-wide policy enforcement, visibility, and infrastructure services using Pi-hole | [View Pi-hole DNS Infrastructure](https://github.com/scott-renny/pihole-dns-infrastructure) |
-| 💾 **Backup Infrastructure Lab** | Backup strategy testing, recovery validation, disaster-recovery fundamentals, and infrastructure resilience | [View Backup Infrastructure Lab](https://github.com/scott-renny/backup-lab) |
+| 🏠 **HomeSOC** | SOC homelab, SIEM deployment, detection engineering, dashboards, and security monitoring | https://github.com/scott-renny/HomeSOC |
+| 🌐 **Home Lab Network Security** | Ubuntu-based network security architecture using Suricata, WireGuard, Wazuh, hardening, and monitoring | https://github.com/scott-renny/home-lab-network-security |
+| 📡 **NET-WATCH** | Custom network visibility and access-control platform using Flask, Nmap, vnStat, Pi-hole, Wazuh, Nginx, and systemd | https://github.com/scott-renny/netwatch |
+| 🛡️ **Pi-hole DNS Infrastructure** | DNS filtering, network-wide policy enforcement, and infrastructure services | https://github.com/scott-renny/pihole-dns-infrastructure |
+| 💾 **Backup Infrastructure Lab** | Backup strategy testing, recovery validation, and infrastructure resilience | https://github.com/scott-renny/backup-lab |
 
 ---
 
@@ -59,104 +63,84 @@ Each project remains in its original repository with its own documentation, conf
 
 | Skill Area | Demonstrated In |
 |---|---|
-| Linux Administration | HomeSOC, Home Lab Network Security, NET-WATCH, Pi-hole DNS Infrastructure, Backup Infrastructure Lab |
+| Linux Administration | Multiple Projects |
 | Network Monitoring | NET-WATCH, Home Lab Network Security, HomeSOC |
-| SIEM and Log Analysis | HomeSOC, NET-WATCH, Home Lab Network Security |
+| SIEM & Log Analysis | HomeSOC, NET-WATCH |
 | Detection Engineering | HomeSOC |
 | Python Development | NET-WATCH |
-| Flask and REST APIs | NET-WATCH |
-| DNS Filtering and Policy Enforcement | Pi-hole DNS Infrastructure, NET-WATCH |
-| Network Intrusion Detection | Home Lab Network Security |
-| VPN Deployment | Home Lab Network Security |
-| Reverse Proxy Configuration | NET-WATCH |
-| Service Management with systemd | NET-WATCH, Home Lab Network Security |
-| Infrastructure Automation | NET-WATCH, Pi-hole DNS Infrastructure, Backup Infrastructure Lab |
-| Backup and Recovery | Backup Infrastructure Lab |
-| Technical Documentation | All listed projects |
-| Troubleshooting and Validation | All listed projects |
+| Flask & REST APIs | NET-WATCH |
+| DNS Policy Enforcement | Pi-hole DNS Infrastructure, NET-WATCH |
+| Suricata IDS | Home Lab Network Security |
+| WireGuard VPN | Home Lab Network Security |
+| Reverse Proxy (Nginx) | NET-WATCH |
+| systemd Services | NET-WATCH |
+| Infrastructure Automation | Multiple Projects |
+| Backup & Recovery | Backup Infrastructure Lab |
+| Technical Documentation | All Projects |
 
 ---
 
 ## Technologies Represented
 
-The legacy portfolio includes hands-on work with technologies such as:
+Ubuntu Server • Python • Flask • REST APIs • Nmap • vnStat • Pi-hole • Wazuh • Suricata • WireGuard • Nginx • systemd • UFW • Windows Event Logs • SIEM • DNS Filtering • Network Monitoring • Backup & Recovery
 
-- Ubuntu Server
-- Python
-- Flask
-- REST APIs
-- Nmap
-- vnStat
-- Pi-hole
-- Wazuh
-- Suricata
-- WireGuard
-- Nginx
-- systemd
-- UFW
-- SIEM dashboards
-- Windows Event Logs
-- Network monitoring
-- DNS-layer access control
-- Backup and recovery tooling
+---
+
+## Engineering Lessons Learned
+
+Building these projects over the past several months fundamentally changed how I approach infrastructure engineering and cybersecurity.
+
+Each project solved a different problem, but together they taught me lessons that now shape how I design, document, and maintain systems.
+
+### Documentation Matters
+
+Early on, I focused on making systems work. As the projects became more complex, I learned that clear documentation, repeatable deployment steps, and architecture diagrams are just as important as the implementation itself.
+
+### Design for Growth
+
+Several projects grew well beyond their original scope. That experience reinforced the value of modular design, separating responsibilities, and planning for future expansion from the beginning.
+
+### Automation Improves Reliability
+
+Automating repetitive tasks reduces manual effort, minimizes configuration drift, and makes systems easier to maintain and reproduce.
+
+### Layered Security Provides Better Visibility
+
+Working with tools such as Pi-hole, Wazuh, Suricata, WireGuard, and custom monitoring solutions showed me that effective security comes from combining complementary layers rather than relying on any single product.
+
+### Troubleshooting Builds Experience
+
+Some of the most valuable learning came from resolving configuration problems, integration issues, networking challenges, and unexpected behavior. Every issue solved improved both my technical knowledge and my troubleshooting process.
+
+### Build Solutions to Real Problems
+
+Many of these projects began by solving practical needs within my own environment. Building solutions with a clear purpose resulted in more practical systems and a deeper understanding of the underlying technologies.
+
+### Continuous Improvement
+
+These repositories are preserved as milestones in my engineering journey. Rather than rewriting them to match my current standards, I have chosen to keep them as a record of how my skills, problem-solving approach, and engineering practices developed over time.
+
+They provide the foundation for the larger, more advanced cybersecurity and infrastructure projects I am building today.
 
 ---
 
 ## 🚀 Current Focus
 
-My current work builds upon the foundation documented in these legacy repositories and focuses on larger, more structured engineering programs.
-
-Current areas of focus include:
-
-- Enterprise-inspired SOC engineering
-- Detection engineering and alert development
-- Infrastructure automation
-- Identity and access management
-- Network architecture and segmentation
-- Security monitoring and observability
-- Threat hunting
-- Digital forensics and incident response
-- Cloud and hybrid security
-- Repeatable documentation and deployment workflows
+Current areas of focus include enterprise-style SOC engineering, infrastructure automation, identity and access management, network architecture, security monitoring, threat hunting, digital forensics, and cloud security.
 
 ### Active and Planned Projects
 
-- 🛡️ **Cyber Operations Center Engineering Program** — flagship SOC engineering initiative
-- 🏗️ **Project Atlas** — infrastructure and systems architecture
-- 🐉 **Project Hydra** — multi-monitor engineering workstation build
-- 🏛️ **Project Olympus** — planned advanced security and infrastructure platform
-- 🔥 **Project Hestia** — dedicated self-hosted media server infrastructure
-
-These projects represent my current engineering direction and evolving technical standards.
+- 🛡️ Cyber Operations Center Engineering Program
+- 🏗️ Project Atlas
+- 🐉 Project Hydra
+- 🏛️ Project Olympus
+- 🔥 Project Hestia
 
 ---
 
 ## Repository Status
 
-This repository functions as an **index and historical portfolio landing page**.
-
-The linked projects are preserved for reference and portfolio review. Some may no longer be actively maintained, and certain software versions, configurations, or implementation approaches may reflect the technologies and knowledge available when the projects were created.
-
-Preserving them in that state provides a more accurate record of my development than continually rewriting older work to resemble newer projects.
-
----
-
-## Notes for Reviewers
-
-When reviewing these projects, please consider them as snapshots of practical learning and engineering growth.
-
-The repositories include a mixture of:
-
-- Architecture decisions
-- Deployment procedures
-- Configuration examples
-- Troubleshooting records
-- Security mappings
-- Implementation challenges
-- Lessons learned
-- Planned improvements
-
-Sensitive information such as credentials, tokens, private keys, and internal addressing has been removed or replaced where appropriate.
+This repository functions as an index for my legacy engineering projects. Each linked repository remains preserved in its original form as a record of my technical growth.
 
 ---
 
@@ -164,24 +148,18 @@ Sensitive information such as credentials, tokens, private keys, and internal ad
 
 Each linked project is governed by the license included in its individual repository.
 
-When no license is present, the project should be treated as viewable portfolio material rather than reusable or redistributable source code.
-
 ---
 
 ## Engineering Philosophy
 
-I believe a strong technical portfolio should show more than finished products.
-
-It should demonstrate curiosity, practical implementation, documentation, troubleshooting, reflection, and measurable improvement over time.
-
-Every repository in this collection represents a genuine stage in that process. Together, they show the foundation that supports my current work in cybersecurity and infrastructure engineering.
+I believe a strong technical portfolio should demonstrate curiosity, practical implementation, documentation, troubleshooting, reflection, and continuous improvement—not just polished final products.
 
 ---
 
 ## Connect
 
-- **GitHub:** [github.com/scott-renny](https://github.com/scott-renny)
-- **LinkedIn:** [linkedin.com/in/scottrenny](https://www.linkedin.com/in/scottrenny)
+- **GitHub:** https://github.com/scott-renny
+- **LinkedIn:** https://www.linkedin.com/in/scottrenny
 
 ---
 
@@ -189,4 +167,4 @@ Every repository in this collection represents a genuine stage in that process. 
 
 **Scott Renny**
 
-Aspiring SOC Analyst · Infrastructure Engineer · Homelab Builder
+Aspiring SOC Analyst • Infrastructure Engineer • Homelab Builder
