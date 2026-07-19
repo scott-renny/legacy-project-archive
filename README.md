@@ -1,166 +1,192 @@
-# Legacy Project Archive
+# 📦 Legacy Engineering Portfolio
 
-> **A curated archive documenting the evolution of my cybersecurity, infrastructure, and systems engineering journey.**
+![Portfolio](https://img.shields.io/badge/Portfolio-Legacy-blue)
+![Status](https://img.shields.io/badge/Status-Preserved-lightgrey)
+![Focus](https://img.shields.io/badge/Focus-Cybersecurity%20%26%20Infrastructure-success)
 
----
+Welcome to my **Legacy Engineering Portfolio**.
 
-# Purpose
+This repository serves as a central index for projects that represent earlier stages of my journey in cybersecurity, infrastructure engineering, Linux administration, automation, networking, and software development.
 
-This repository preserves earlier projects that contributed to my growth as an aspiring cybersecurity professional and infrastructure engineer.
+Rather than deleting or rewriting these projects, I have chosen to preserve them in their original repositories. Together, they document how my technical skills, engineering decisions, troubleshooting methods, and project scope evolved over time.
 
-Rather than deleting previous work as my skills improve, I have chosen to archive these projects to demonstrate continuous learning, iterative design, and the progression of my technical abilities over time.
-
-Each archived project represents a milestone in developing the practical skills required to design, secure, automate, monitor, and maintain modern IT infrastructure.
-
----
-
-# Current Projects
-
-The archived repositories in this collection represent important milestones in my learning journey. Their concepts continue to influence the design and implementation of my current projects.
-
-| Project                                         | Focus                                                                                                                                                                                                                                       | Status                  |
-| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
-| **Project Atlas**                               | Modernizing and rebuilding my enterprise infrastructure platform, including servers, virtualization, automation, monitoring, storage, disaster recovery, and operational scalability.                                                       | 🚧 **Work in Progress** |
-| **Project Hydra**                               | Planned next-generation enterprise-inspired workstation and cybersecurity command center integrating high-performance computing, virtualization, AI-assisted workflows, automation, and multi-monitor operations.                           | 📋 **Planning**         |
-| **Project Olympus**                             | Planned enterprise network engineering project serving as the living documentation for the physical and logical network, including switching, routing, VLANs, segmentation, rack layout, cabling, IP addressing, and infrastructure design. | 📋 **Planning**         |
-| **Project Hestia**                              | Planned intelligent media server and self-hosted services platform providing automated media management, cloud services, secure content delivery, and digital home infrastructure.                                                          | 📋 **Planning**         |
-| **Cyber Operations Center Engineering Program** | A structured portfolio of hands-on cybersecurity engineering projects covering SOC operations, Active Directory, SIEM engineering, threat detection, incident response, digital forensics, defensive security, and automation.              | 🚧 **Work in Progress** |
-| **Security+ Trainer**                           | Interactive educational application designed to reinforce CompTIA Security+ concepts through practical exercises, simulated exam scenarios, and hands-on learning.                                                                          | ✅ **Completed**         |
-
-Together, these projects represent the next stage of my technical growth and continue to build upon the experience documented throughout this archive.
+These projects may not represent my current engineering standards or active development practices, but they remain valuable records of practical learning, problem-solving, implementation challenges, and continuous improvement.
 
 ---
 
-# Why Archive Instead of Delete?
+## Why Preserve Legacy Projects?
 
-Technology evolves rapidly, and so do the people who build it.
+Many technical portfolios showcase only polished or recently completed work. I believe the progression behind that work is equally important.
 
-As I gained experience, I identified opportunities to improve my original designs through:
+These repositories demonstrate:
 
-* Better documentation
-* Stronger security practices
-* Infrastructure standardization
-* Improved automation
-* Enhanced scalability
-* Cleaner project organization
-* More realistic enterprise workflows
-
-Rather than continuously modifying older repositories, I chose to preserve them in their original context while rebuilding them using modern engineering practices.
-
-This archive serves as a record of that progression.
+- Progressive improvement in engineering practices
+- Practical problem-solving in a working homelab
+- Increasing architectural and operational complexity
+- Hands-on experimentation with security and infrastructure tools
+- Continuous learning through implementation and troubleshooting
+- The transition from individual homelab exercises toward larger, enterprise-inspired engineering projects
 
 ---
 
-# Archived Projects
+## 👋 New to My Portfolio?
 
-The following repositories have been preserved as historical references documenting the progression of my skills and engineering practices.
+For the strongest overview of my earlier work, I recommend exploring these repositories in the following order:
 
-| Project                   | Primary Focus                    | Status      |
-| ------------------------- | -------------------------------- | ----------- |
-| Backup Lab                | Backup & Recovery                | 📦 Archived |
-| HomeSOC (Generation 1)    | Security Operations              | 📦 Archived |
-| Home Lab Network Security | Network Security                 | 📦 Archived |
-| NetWatch                  | Network Monitoring               | 📦 Archived |
-| Pi-hole DNS Lab           | DNS Filtering & Network Services | 📦 Archived |
+1. **HomeSOC** — security monitoring, SIEM, and detection-focused work
+2. **Home Lab Network Security** — layered network security architecture
+3. **NET-WATCH** — custom monitoring and access-control platform
+4. **Pi-hole DNS Infrastructure** — DNS filtering and network services
+5. **Backup Infrastructure Lab** — backup validation and recovery fundamentals
 
-Additional projects will be added to this archive as they are superseded by newer implementations.
+Each project remains in its original repository with its own documentation, configuration files, implementation notes, and supporting material.
 
 ---
 
-# What You'll Find Here
+## Legacy Engineering Projects
 
-Each archived project includes, where applicable:
-
-* Original documentation
-* Configuration files
-* Scripts and automation
-* Architecture diagrams
-* Lessons learned
-* Historical implementation details
-* Project evolution notes
-
-Some projects have been lightly updated to improve documentation, remove sensitive information, and clarify implementation details. Their technical designs have otherwise been preserved to accurately reflect my knowledge and engineering practices at the time they were created.
+| Project | Primary Focus | Repository |
+|---|---|---|
+| 🏠 **HomeSOC** | SOC homelab, SIEM deployment, log collection, detection engineering, dashboards, and security monitoring | [View HomeSOC](https://github.com/scott-renny/HomeSOC) |
+| 🌐 **Home Lab Network Security** | Ubuntu-based network security architecture using Suricata, WireGuard, Wazuh, hardening, and monitoring | [View Home Lab Network Security](https://github.com/scott-renny/home-lab-network-security) |
+| 📡 **NET-WATCH** | Custom network visibility and access-control platform using Flask, Nmap, vnStat, Pi-hole, Wazuh, Nginx, and systemd | [View NET-WATCH](https://github.com/scott-renny/netwatch) |
+| 🛡️ **Pi-hole DNS Infrastructure** | DNS filtering, network-wide policy enforcement, visibility, and infrastructure services using Pi-hole | [View Pi-hole DNS Infrastructure](https://github.com/scott-renny/pihole-dns-infrastructure) |
+| 💾 **Backup Infrastructure Lab** | Backup strategy testing, recovery validation, disaster-recovery fundamentals, and infrastructure resilience | [View Backup Infrastructure Lab](https://github.com/scott-renny/backup-lab) |
 
 ---
 
-# Engineering Philosophy
+## Technical Skills Demonstrated
 
-My goal extends beyond building home labs.
-
-I strive to understand how enterprise environments are designed, secured, monitored, automated, documented, and continuously improved.
-
-Every project follows the same engineering lifecycle:
-
-1. Learn
-2. Design
-3. Build
-4. Test
-5. Break
-6. Investigate
-7. Improve
-8. Document
-9. Repeat
-
-This iterative approach has become the foundation of my learning process and continues to guide every project I undertake.
-
----
-
-# Repository Status
-
-| Category                 | Status                                                                                                     |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------- |
-| Repository Purpose       | Historical Portfolio                                                                                       |
-| Active Development       | Archive Documentation Only                                                                                 |
-| Archived Projects        | Maintained for Reference                                                                                   |
-| New Projects Added       | As Legacy Projects Are Retired                                                                             |
-| Current Engineering Work | Project Atlas, Project Hydra, Project Olympus, Project Hestia, Cyber Operations Center Engineering Program |
+| Skill Area | Demonstrated In |
+|---|---|
+| Linux Administration | HomeSOC, Home Lab Network Security, NET-WATCH, Pi-hole DNS Infrastructure, Backup Infrastructure Lab |
+| Network Monitoring | NET-WATCH, Home Lab Network Security, HomeSOC |
+| SIEM and Log Analysis | HomeSOC, NET-WATCH, Home Lab Network Security |
+| Detection Engineering | HomeSOC |
+| Python Development | NET-WATCH |
+| Flask and REST APIs | NET-WATCH |
+| DNS Filtering and Policy Enforcement | Pi-hole DNS Infrastructure, NET-WATCH |
+| Network Intrusion Detection | Home Lab Network Security |
+| VPN Deployment | Home Lab Network Security |
+| Reverse Proxy Configuration | NET-WATCH |
+| Service Management with systemd | NET-WATCH, Home Lab Network Security |
+| Infrastructure Automation | NET-WATCH, Pi-hole DNS Infrastructure, Backup Infrastructure Lab |
+| Backup and Recovery | Backup Infrastructure Lab |
+| Technical Documentation | All listed projects |
+| Troubleshooting and Validation | All listed projects |
 
 ---
 
-# Portfolio Roadmap
+## Technologies Represented
 
-This repository is one part of my overall GitHub portfolio.
+The legacy portfolio includes hands-on work with technologies such as:
 
-| Repository                                      | Purpose                                                                   |
-| ----------------------------------------------- | ------------------------------------------------------------------------- |
-| **Project Atlas**                               | Enterprise infrastructure modernization and operational engineering       |
-| **Project Hydra**                               | Planned enterprise workstation and cybersecurity command center           |
-| **Project Olympus**                             | Planned enterprise network engineering and living network documentation   |
-| **Project Hestia**                              | Planned intelligent media server and self-hosted services platform        |
-| **Cyber Operations Center Engineering Program** | Structured cybersecurity engineering portfolio and implementation roadmap |
-| **Security+ Trainer**                           | Completed educational software application                                |
-| **Legacy Project Archive**                      | Historical record of completed and superseded projects                    |
-
-Together, these repositories document not only what I have built, but also how my approach to engineering, infrastructure, networking, cybersecurity, automation, and documentation has evolved over time.
+- Ubuntu Server
+- Python
+- Flask
+- REST APIs
+- Nmap
+- vnStat
+- Pi-hole
+- Wazuh
+- Suricata
+- WireGuard
+- Nginx
+- systemd
+- UFW
+- SIEM dashboards
+- Windows Event Logs
+- Network monitoring
+- DNS-layer access control
+- Backup and recovery tooling
 
 ---
 
-# Connect With Me
+## 🚀 Current Focus
 
-I am currently expanding my practical experience in:
+My current work builds upon the foundation documented in these legacy repositories and focuses on larger, more structured engineering programs.
 
-* Security Operations (SOC)
-* Blue Team Operations
-* Threat Detection & Detection Engineering
-* Windows Administration
-* Linux Administration
-* Enterprise Networking
-* Infrastructure Engineering
-* Virtualization
-* Automation
-* Digital Forensics
-* Home Lab Engineering
+Current areas of focus include:
 
-My active work is documented within my current repositories, while this archive preserves the projects that helped shape that journey.
+- Enterprise-inspired SOC engineering
+- Detection engineering and alert development
+- Infrastructure automation
+- Identity and access management
+- Network architecture and segmentation
+- Security monitoring and observability
+- Threat hunting
+- Digital forensics and incident response
+- Cloud and hybrid security
+- Repeatable documentation and deployment workflows
+
+### Active and Planned Projects
+
+- 🛡️ **Cyber Operations Center Engineering Program** — flagship SOC engineering initiative
+- 🏗️ **Project Atlas** — infrastructure and systems architecture
+- 🐉 **Project Hydra** — multi-monitor engineering workstation build
+- 🏛️ **Project Olympus** — planned advanced security and infrastructure platform
+- 🔥 **Project Hestia** — dedicated self-hosted media server infrastructure
+
+These projects represent my current engineering direction and evolving technical standards.
+
+---
+
+## Repository Status
+
+This repository functions as an **index and historical portfolio landing page**.
+
+The linked projects are preserved for reference and portfolio review. Some may no longer be actively maintained, and certain software versions, configurations, or implementation approaches may reflect the technologies and knowledge available when the projects were created.
+
+Preserving them in that state provides a more accurate record of my development than continually rewriting older work to resemble newer projects.
+
+---
+
+## Notes for Reviewers
+
+When reviewing these projects, please consider them as snapshots of practical learning and engineering growth.
+
+The repositories include a mixture of:
+
+- Architecture decisions
+- Deployment procedures
+- Configuration examples
+- Troubleshooting records
+- Security mappings
+- Implementation challenges
+- Lessons learned
+- Planned improvements
+
+Sensitive information such as credentials, tokens, private keys, and internal addressing has been removed or replaced where appropriate.
 
 ---
 
 ## License
 
-Unless otherwise specified, the contents of this repository are provided for educational and portfolio purposes. Please review the license information within individual projects before reusing any code or documentation.
+Each linked project is governed by the license included in its individual repository.
+
+When no license is present, the project should be treated as viewable portfolio material rather than reusable or redistributable source code.
 
 ---
 
+## Engineering Philosophy
+
+I believe a strong technical portfolio should show more than finished products.
+
+It should demonstrate curiosity, practical implementation, documentation, troubleshooting, reflection, and measurable improvement over time.
+
+Every repository in this collection represents a genuine stage in that process. Together, they show the foundation that supports my current work in cybersecurity and infrastructure engineering.
+
+---
+
+## Connect
+
+- **GitHub:** [github.com/scott-renny](https://github.com/scott-renny)
+- **LinkedIn:** [linkedin.com/in/scottrenny](https://www.linkedin.com/in/scottrenny)
+
+---
+
+## Author
+
 **Scott Renny**
 
-*Aspiring SOC Analyst • Infrastructure Engineer • Continuous Learner*
+Aspiring SOC Analyst · Infrastructure Engineer · Homelab Builder
