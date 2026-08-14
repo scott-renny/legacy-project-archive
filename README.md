@@ -14,7 +14,7 @@ These projects may not represent my current engineering standards or active deve
 
 > **Looking for my current engineering work?**
 >
-> My active cybersecurity and infrastructure projects are maintained in separate repositories and reflect my current engineering standards. This repository exists to preserve the earlier stages of my learning and technical growth.
+> My active cybersecurity and infrastructure projects are maintained in separate repositories and reflect my current engineering standards. [NET-WATCH](https://github.com/scott-renny/netwatch) is maintained as an active operational project and is intentionally not classified as legacy. This repository exists to preserve the earlier stages of my learning and technical growth.
 
 ---
 
@@ -39,9 +39,8 @@ For the strongest overview of my earlier work, I recommend exploring these repos
 
 1. HomeSOC
 2. Home Lab Network Security
-3. NET-WATCH
-4. Pi-hole DNS Infrastructure
-5. Backup Infrastructure Lab
+3. Pi-hole DNS Infrastructure
+4. Backup Infrastructure Lab
 
 Each project remains in its original repository with its own documentation, configuration files, implementation notes, and supporting material.
 
@@ -53,7 +52,6 @@ Each project remains in its original repository with its own documentation, conf
 |---|---|---|
 | 🏠 **HomeSOC** | SOC homelab, SIEM deployment, detection engineering, dashboards, and security monitoring | https://github.com/scott-renny/HomeSOC |
 | 🌐 **Home Lab Network Security** | Ubuntu-based network security architecture using Suricata, WireGuard, Wazuh, hardening, and monitoring | https://github.com/scott-renny/home-lab-network-security |
-| 📡 **NET-WATCH** | Custom network visibility and access-control platform using Flask, Nmap, vnStat, Pi-hole, Wazuh, Nginx, and systemd | https://github.com/scott-renny/netwatch |
 | 🛡️ **Pi-hole DNS Infrastructure** | DNS filtering, network-wide policy enforcement, and infrastructure services | https://github.com/scott-renny/pihole-dns-infrastructure |
 | 💾 **Backup Infrastructure Lab** | Backup strategy testing, recovery validation, and infrastructure resilience | https://github.com/scott-renny/backup-lab |
 
@@ -64,16 +62,12 @@ Each project remains in its original repository with its own documentation, conf
 | Skill Area | Demonstrated In |
 |---|---|
 | Linux Administration | Multiple Projects |
-| Network Monitoring | NET-WATCH, Home Lab Network Security, HomeSOC |
-| SIEM & Log Analysis | HomeSOC, NET-WATCH |
+| Network Monitoring | Home Lab Network Security, HomeSOC |
+| SIEM & Log Analysis | HomeSOC |
 | Detection Engineering | HomeSOC |
-| Python Development | NET-WATCH |
-| Flask & REST APIs | NET-WATCH |
-| DNS Policy Enforcement | Pi-hole DNS Infrastructure, NET-WATCH |
+| DNS Policy Enforcement | Pi-hole DNS Infrastructure |
 | Suricata IDS | Home Lab Network Security |
 | WireGuard VPN | Home Lab Network Security |
-| Reverse Proxy (Nginx) | NET-WATCH |
-| systemd Services | NET-WATCH |
 | Infrastructure Automation | Multiple Projects |
 | Backup & Recovery | Backup Infrastructure Lab |
 | Technical Documentation | All Projects |
@@ -82,7 +76,7 @@ Each project remains in its original repository with its own documentation, conf
 
 ## Technologies Represented
 
-Ubuntu Server • Python • Flask • REST APIs • Nmap • vnStat • Pi-hole • Wazuh • Suricata • WireGuard • Nginx • systemd • UFW • Windows Event Logs • SIEM • DNS Filtering • Network Monitoring • Backup & Recovery
+Ubuntu Server • Pi-hole • Wazuh • Suricata • WireGuard • Nginx • systemd • UFW • Windows Event Logs • SIEM • DNS Filtering • Network Monitoring • Backup & Recovery
 
 ---
 
@@ -132,9 +126,11 @@ Current areas of focus include enterprise-style SOC engineering, infrastructure 
 
 - 🛡️ Cyber Operations Center Engineering Program
 - 🏗️ Project Atlas
-- 🐉 Project Hydra
-- 🏛️ Project Olympus
-- 🔥 Project Hestia
+- 📡 [NET-WATCH](https://github.com/scott-renny/netwatch)
+- 🪖 [Project Hermes](https://github.com/scott-renny/project-hermes)
+- 🐺 [Project Cerberus](https://github.com/scott-renny/project-cerberus-build)
+- ⚔️ [Project Ares](https://github.com/scott-renny/project_ares)
+- ☀️ [Project Apollo](https://github.com/scott-renny/project-apollo)
 
 ---
 
@@ -167,4 +163,4 @@ I believe a strong technical portfolio should demonstrate curiosity, practical i
 
 **Scott Renny**
 
-Aspiring SOC Analyst • Infrastructure Engineer • Homelab Builder
+Security+ Certified • Cybersecurity and Infrastructure Engineering
