@@ -50,7 +50,7 @@ Each project remains in its original repository with its own documentation, conf
 
 | Project | Primary Focus | Repository |
 |---|---|---|
-| 🏠 **HomeSOC** | SOC homelab, SIEM deployment, detection engineering, dashboards, and security monitoring | https://github.com/scott-renny/HomeSOC |
+| 🏠 **HomeSOC** | SOC homelab, SIEM deployment, detection engineering, dashboards, and security monitoring | https://github.com/scott-renny/homesoc |
 | 🌐 **Home Lab Network Security** | Ubuntu-based network security architecture using Suricata, WireGuard, Wazuh, hardening, and monitoring | https://github.com/scott-renny/home-lab-network-security |
 | 🛡️ **Pi-hole DNS Infrastructure** | DNS filtering, network-wide policy enforcement, and infrastructure services | https://github.com/scott-renny/pihole-dns-infrastructure |
 | 💾 **Backup Infrastructure Lab** | Backup strategy testing, recovery validation, and infrastructure resilience | https://github.com/scott-renny/backup-lab |
