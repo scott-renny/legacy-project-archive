@@ -129,6 +129,7 @@ Current areas of focus include enterprise-style SOC engineering, infrastructure 
 - 📡 [NET-WATCH](https://github.com/scott-renny/netwatch)
 - 🪖 [Project Hermes](https://github.com/scott-renny/project-hermes)
 - 🐺 [Project Cerberus](https://github.com/scott-renny/project-cerberus-build)
+- ⚔️ [Project Ares](https://github.com/scott-renny/project_ares) — virtual cyber range hosted on Cerberus; no dedicated hardware
 - ☀️ [Project Apollo](https://github.com/scott-renny/project-apollo)
 
 ---
