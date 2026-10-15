@@ -1,8 +1,18 @@
-# 📦 Legacy Engineering Portfolio
+<div align="center">
 
-![Portfolio](https://img.shields.io/badge/Portfolio-Legacy-blue)
-![Status](https://img.shields.io/badge/Status-Preserved-lightgrey)
-![Focus](https://img.shields.io/badge/Focus-Cybersecurity%20%26%20Infrastructure-success)
+# Legacy Engineering Portfolio
+### Infrastructure · Cybersecurity · Lessons Learned
+
+![edition: portfolio index](https://img.shields.io/badge/edition-portfolio%20index-22d3ee?style=flat-square)
+![status: historical records](https://img.shields.io/badge/status-historical%20records-64748b?style=flat-square)
+
+[License](LICENSE)
+
+</div>
+
+[Why Preserve Legacy Projects?](#why-preserve-legacy-projects) · [👋 New to My Portfolio?](#-new-to-my-portfolio) · [Legacy Engineering Projects](#legacy-engineering-projects) · [Technical Skills Demonstrated](#technical-skills-demonstrated) · [Technologies Represented](#technologies-represented) · [Engineering Lessons Learned](#engineering-lessons-learned)
+
+---
 
 Welcome to my **Legacy Engineering Portfolio**.
 
